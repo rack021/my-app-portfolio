@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="orange" type="color">#FFFF9800</item>
+    <item name="dark_orange" type="color">#FFF57C00</item>
+    <item name="grey" type="color">#FF616161</item>
+    <item name="white" type="color">#FFFFFFFF</item>
+    <item name="acsent" type="color">#FFFFC107</item>
+</resources>

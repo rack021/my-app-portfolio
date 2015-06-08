@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/portfolio_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#424242" />
+
+    <Button
+        android:id="@+id/spotify_launch_btn"
+        style="@style/app_launcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/spotify_app_name" />
+
+    <Button
+        android:id="@+id/score_launch_btn"
+        style="@style/app_launcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/scores_app_name" />
+
+    <Button
+        android:id="@+id/library_launch_btn"
+        style="@style/app_launcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/library_app_name" />
+
+    <Button
+        android:id="@+id/buid_launch_btn"
+        style="@style/app_launcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/build_app_name" />
+
+    <Button
+        android:id="@+id/xyz_launch_btn"
+        style="@style/app_launcher_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/xyz_app_name" />
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/ripple_btn"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleBackground="@color/acsent"
+        app:mrl_rippleRoundedCorners="10dp"
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="7dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+
+        <TextView
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone_app_name"
+            android:textColor="@color/white" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+
+
+
+</LinearLayout>

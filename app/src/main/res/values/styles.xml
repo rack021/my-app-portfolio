@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.base">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/dark_orange</item>
+        <item name="colorAccent">@color/dark_orange</item>
+        <item name="colorButtonNormal">@color/white</item>
+    </style>
+    <style name="AppTheme.base" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/dark_orange</item>
+        <item name="colorAccent">@color/dark_orange</item>
+        <item name="colorButtonNormal">@color/white</item>
+    </style>
+
+    <style name="app_launcher_btn" parent="AppTheme">
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
